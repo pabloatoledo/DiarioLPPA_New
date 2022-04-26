@@ -9,3 +9,9 @@ Se añade al final un formulario con los correspondientes input
 
 
 En el header, por cuestion de visual y para no aplicar css, lo coloco como tabla
+
+1º armar estructura de la página y colocar los headings
+
+2º añadir las imagenes, links
+
+3º formularios y tablas
