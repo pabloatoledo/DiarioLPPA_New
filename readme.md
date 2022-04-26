@@ -7,3 +7,5 @@ Se eligió esta noticia ya que tiene tablas, se pueden adaptar listas (la primer
 
 Se añade al final un formulario con los correspondientes input
 
+
+En el header, por cuestion de visual y para no aplicar css, lo coloco como tabla
