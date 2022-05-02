@@ -15,3 +15,12 @@ En el header, por cuestion de visual y para no aplicar css, lo coloco como tabla
 2º añadir las imagenes, links
 
 3º formularios y tablas
+
+
+---------------------------------------------------------------------- ACTIVIDAD 4 ----------------------------------------------------------------------------
+
+Link of news:
+
+https://www.bbc.com/news/world-australia-61294894
+
+This will contain the html structure and css
