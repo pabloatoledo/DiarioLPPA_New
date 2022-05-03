@@ -100,13 +100,18 @@ a:hover{
     margin: 0, auto;
 }
 .contasi {
-    
+    max-width: 300px;
+}
+.contasi a {
+    font-size: 20px;
 }
 .contasi li {
     list-style-type: none;
     display: block;
 }
-
+.navasi {
+    padding-left: 0;
+}
 .sectbot {
     display: inline;
 }
@@ -130,9 +135,12 @@ a:hover{
     background-color: red;
     color: white;
   }
-
+.content-foot {
+    max-width: 100%;
+}
 .foot {
     background-color: #282828;
+    max-width: 100%;
     
 }
 .foot p {
@@ -140,13 +148,16 @@ a:hover{
     font-size: 25px;
     color: white;
 }
-.footlist{
+.footlist {
     display: inline;
     padding: 10px 20px;
     text-align: center;
     color: white;
 }
-
+.footlist a {
+    text-decoration: none;
+    color: white;
+}
 
 
 
