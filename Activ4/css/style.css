@@ -1,0 +1,166 @@
+p {
+    font-family: Helvetica;
+    max-width: 700px;
+    font-weight: 500;
+    color: #303030;
+}
+img {
+    max-width: 900px;
+}
+h1 {
+    font-family: Helvetica;
+    font-size: 50px;
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 35px;
+}
+h3 {
+    color: black;
+    font-weight: bold;
+}
+figcaption {
+    font-family: Helvetica;
+    color: #303030;
+    font-size: 12px;
+    border-left: 1px solid #303030;
+    padding-left: 15px;
+}
+a:link {
+    color: black;
+    font-weight: 600;
+}
+a:hover{
+    color: #ff0000;
+}
+
+.main-content {
+    max-width: 900px;
+    margin-left: 120px;    
+}
+
+.nav1 li {
+    display: inline;
+    border-right: 1px solid #303030;
+    text-align: center;
+    padding: 5px 25px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav1 a:link {
+    text-decoration: none;
+    color: black;
+}
+.nav1 a:hover {
+    color: black;
+}
+.nav1 a:visited {
+    color: black;
+}
+.nav1 nav {
+    max-height: 30px;
+}
+.contnavtop {
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav2 {
+    margin-top: 20px;
+    background-color: #B80000;
+}
+.nav2 li {
+    display: inline;
+    border-right: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav2esp { /*revisar*/
+    float: right;
+}
+.nav2 a:link {
+    text-decoration: none;
+    color: white;
+}
+.nav2 a:visited {
+    color: white;
+}
+.mainban {
+    font-size: 40px;
+}
+
+
+
+
+
+.cont {
+    width: 1200px;
+    margin: 0, auto;
+}
+.contasi {
+    max-width: 300px;
+}
+.contasi a {
+    font-size: 20px;
+}
+.contasi li {
+    list-style-type: none;
+    display: block;
+}
+.navasi {
+    padding-left: 0;
+}
+.sectbot {
+    display: inline;
+}
+.sectbot2 {
+    display: block;
+}
+
+.topic li {
+    display: inline;
+}
+.topic a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.topic a:hover, a:active {
+    background-color: red;
+    color: white;
+  }
+.content-foot {
+    max-width: 100%;
+}
+.foot {
+    background-color: #282828;
+    max-width: 100%;
+    
+}
+.foot p {
+    
+    font-size: 25px;
+    color: white;
+}
+.footlist {
+    display: inline;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+.footlist a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.artli{
+    font-family: Helvetica;
+}
