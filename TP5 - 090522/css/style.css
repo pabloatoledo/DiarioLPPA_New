@@ -6,14 +6,18 @@ figure {
 .main-content, .foot {
     max-width: 900px;  
 }
+.middle {
+    display: inline-block;
+    max-width: 1300px;
+}
 .main-content {
     display: inline;
     float: left;
-    max-width: 50%;
 }
 .contasi {
+    margin-left: 20px;
+    max-width: 380px;
     display: inline;
-    max-width: 50%;
     float: right;
 }
 .nav1, .contnavtop {
@@ -40,10 +44,23 @@ figure {
     margin-top: 20px;
     float: right;
 }
+
 .reltop {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.foot {
+    margin: 0 auto;
+}
+
+.navasi {
+    padding-inline-start: 0px;
+}
+.navasi li {
+    margin-top: 20px;
+}
+
 
 
 
@@ -155,7 +172,6 @@ a:hover{
 }
 
 .foot p {
-    
     font-size: 25px;
     color: white;
 }
@@ -188,4 +204,7 @@ a:hover{
 }
 .content-foot {
     background-color: #282828;
+}
+.navasi {
+    background-color: cornsilk;
 }
