@@ -4,6 +4,20 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+    .feat {
+        max-width: 50%;
+    }
+    .fleft {
+        float: left;
+    }
+    .fright {
+        float: right;
+    }
+    .feat-main {
+        display: inline-block;
+    }    
+}
 
 @media screen and (min-width: 992px) {
     .middle {
@@ -24,10 +38,13 @@
     }
     .sectbot {
         display: inline;
-    
     }
     .sectbot2 {
         margin-top: 20px;
         float: right;
+    }
+    .feat {
+        max-width: 70%;
+        margin: 0 auto;
     }
 }

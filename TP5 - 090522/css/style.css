@@ -4,7 +4,6 @@ figure {
     margin-inline-start: 0;
 }
 
-
 .nav1, .contnavtop {
     max-width: 100%;
     margin: 0 auto;
@@ -17,11 +16,10 @@ figure {
     margin-top: 15px;
 }
 
-.nav2esp { /*revisar posicion*/
+.nav2esp {
     margin-top: -5px;
     float: right;
 }
-
 
 .reltop {
     margin-top: 50px;
