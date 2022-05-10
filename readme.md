@@ -24,3 +24,9 @@ Link of news:
 https://www.bbc.com/news/world-australia-61294894
 
 This will contain the html structure and css
+
+
+---------------------------------------------------------------------- ACTIVIDAD 5 ----------------------------------------------------------------------------
+
+Misma noticia con responsive
+Correción  de errores de la actividad anterior
