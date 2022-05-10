@@ -1,12 +1,80 @@
-p {
-    font-family: Helvetica;
-    max-width: 700px;
-    font-weight: 500;
-    color: #303030;
-}
-img {
+figure {
     max-width: 900px;
+    margin-bottom: 15px;
+    margin-inline-start: 0;
 }
+.main-content, .foot {
+    max-width: 900px;  
+}
+.main-content {
+    display: inline;
+    float: left;
+    max-width: 50%;
+}
+.contasi {
+    display: inline;
+    max-width: 50%;
+    float: right;
+}
+.nav1, .contnavtop {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav2 {
+    margin-top: 20px;
+    padding: 15px;
+}
+.nav2bot {
+    margin-top: 15px;
+}
+
+.nav2esp { /*revisar posicion*/
+    margin-top: -5px;
+    float: right;
+}
+.sectbot {
+    display: inline;
+
+}
+.sectbot2 {
+    margin-top: 20px;
+    float: right;
+}
+.reltop {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/*posiciones en etiquetas dentro de clases*/
+.nav1 li {
+    padding: 5px 25px;
+}
+.nav2 li {
+    padding: 5px 10px;
+}
+.sectbot2 p{
+    margin-top: 40px;
+}
+.topic {
+    padding-inline-start: 0px;
+}
+.topic li {
+    display: inline;
+}
+
+/*posiciones generales*/
+.width-900 {
+    width: 900px;
+}
+.max-w550 {
+    max-width: 550px;
+}
+
+/*-----------------efectos-------------------------------*/
+
+/* efectos a etiquetas*/
 h1 {
     font-family: Helvetica;
     font-size: 50px;
@@ -19,6 +87,12 @@ h3 {
     color: black;
     font-weight: bold;
 }
+p {
+    font-family: Helvetica;
+    max-width: 700px;
+    font-weight: 500;
+    color: #303030;
+}
 figcaption {
     font-family: Helvetica;
     color: #303030;
@@ -26,6 +100,8 @@ figcaption {
     border-left: 1px solid #303030;
     padding-left: 15px;
 }
+
+/*pseudo a etiquetas*/
 a:link {
     color: black;
     font-weight: 600;
@@ -34,20 +110,12 @@ a:hover{
     color: #ff0000;
 }
 
-.main-content {
-    max-width: 900px;
-    margin-left: 120px;    
-}
-
+/*efectos a etiquetas dentro de clases*/
 .nav1 li {
     display: inline;
     border-right: 1px solid #303030;
     text-align: center;
-    padding: 5px 25px;
-    width: 1200px;
-    margin: 0 auto;
 }
-
 .nav1 a:link {
     text-decoration: none;
     color: black;
@@ -58,27 +126,11 @@ a:hover{
 .nav1 a:visited {
     color: black;
 }
-.nav1 nav {
-    max-height: 30px;
-}
-.contnavtop {
-    width: 1200px;
-    margin: 0 auto;
-}
-.nav2 {
-    margin-top: 20px;
-    background-color: #B80000;
-}
+
 .nav2 li {
     display: inline;
     border-right: 1px solid white;
-    text-align: center;
-    padding: 5px;
-    width: 1200px;
-    margin: 0 auto;
-}
-.nav2esp { /*revisar*/
-    float: right;
+    text-align: center;    
 }
 .nav2 a:link {
     text-decoration: none;
@@ -87,42 +139,7 @@ a:hover{
 .nav2 a:visited {
     color: white;
 }
-.mainban {
-    font-size: 40px;
-}
 
-
-
-
-
-.cont {
-    width: 50%;
-    float: left;
-}
-.contasi {
-    max-width: 50%;
-    float: right;
-}
-.contasi a {
-    font-size: 20px;
-}
-.contasi li {
-    list-style-type: none;
-    display: block;
-}
-.navasi {
-    padding-left: 0;
-}
-.sectbot {
-    display: inline;
-}
-.sectbot2 {
-    display: block;
-}
-
-.topic li {
-    display: inline;
-}
 .topic a:link, a:visited {
     background-color: white;
     color: black;
@@ -135,15 +152,8 @@ a:hover{
 .topic a:hover, a:active {
     background-color: red;
     color: white;
-  }
-.content-foot {
-    max-width: 100%;
 }
-.foot {
-    background-color: #282828;
-    max-width: 100%;
-    
-}
+
 .foot p {
     
     font-size: 25px;
@@ -160,8 +170,22 @@ a:hover{
     color: white;
 }
 
-
-
-.artli{
+.contasi a {
+    font-size: 20px;
+}
+.contasi li {
+    list-style-type: none;
+}
+/*efectos a clases*/
+.nav2 {
+    background-color: red;
+}
+.nav2news {
+    font-size: 40px;
+}
+.artli {
     font-family: Helvetica;
+}
+.content-foot {
+    background-color: #282828;
 }
