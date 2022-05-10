@@ -16,6 +16,10 @@
     }
     .feat-main {
         display: inline-block;
+    }
+    .feat img {
+        margin: 0 auto;
+        text-align:center;
     }    
 }
 

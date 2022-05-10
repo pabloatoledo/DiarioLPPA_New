@@ -26,6 +26,10 @@ figure {
     margin-bottom: 50px;
 }
 
+.sectbot {
+    margin-top: 10px;
+}
+
 .foot {
     margin: 0 auto;
 }
@@ -36,7 +40,6 @@ figure {
 .navasi li {
     margin-top: 20px;
 }
-
 
 /*posiciones en etiquetas dentro de clases*/
 .nav1 li {
@@ -170,6 +173,7 @@ a:hover{
 .contasi li {
     list-style-type: none;
 }
+
 /*efectos a clases*/
 .nav2 {
     background-color: red;
