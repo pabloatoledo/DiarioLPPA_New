@@ -3,23 +3,8 @@ figure {
     margin-bottom: 15px;
     margin-inline-start: 0;
 }
-.main-content, .foot {
-    max-width: 70%;  
-}
-.middle {
-    display: inline-block;
-    max-width: 100%;
-}
-.main-content {
-    display: inline;
-    float: left;
-}
-.contasi {
-    /*margin-left: 20px;*/
-    max-width: 30%;
-    display: inline;
-    float: right;
-}
+
+
 .nav1, .contnavtop {
     max-width: 100%;
     margin: 0 auto;
@@ -36,14 +21,7 @@ figure {
     margin-top: -5px;
     float: right;
 }
-.sectbot {
-    display: inline;
 
-}
-.sectbot2 {
-    margin-top: 20px;
-    float: right;
-}
 
 .reltop {
     margin-top: 50px;
@@ -62,8 +40,6 @@ figure {
 }
 
 
-
-
 /*posiciones en etiquetas dentro de clases*/
 .nav1 li {
     padding: 5px 25px;
@@ -79,6 +55,10 @@ figure {
 }
 .topic li {
     display: inline;
+}
+.feat img {
+    display: block;
+    margin-bottom: 10px;
 }
 
 /*posiciones generales*/

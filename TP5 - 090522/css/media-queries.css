@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+    .hidden {
+      display: none;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .middle {
+        display: inline-block;
+        max-width: 100%;
+    }
+    .main-content {
+        display: inline;
+        float: left;
+    }
+    .contasi {
+        max-width: 30%;
+        display: inline;
+        float: right;
+    }
+    .main-content, .foot {
+        max-width: 70%;  
+    }
+    .sectbot {
+        display: inline;
+    
+    }
+    .sectbot2 {
+        margin-top: 20px;
+        float: right;
+    }
+}
